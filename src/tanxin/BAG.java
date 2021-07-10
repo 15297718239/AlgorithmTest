@@ -13,7 +13,7 @@ public class BAG {
         C = scanner.nextDouble();
         double[] a = new double[n];    //物品重量数组
         double[] b = new double[n];    //物品价值数组
-        double[] x = new double[n];
+        double[] x = new double[n];//aa
         for (i = 0; i < n; i++) {
             a[i] = Math.floor(Math.random() * 20);
         }
